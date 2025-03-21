@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray_500: hsl(0, 0%, 42%;);
+  --gray_950: hsl(0, 0%, 7%);
+}
+
+.figtree-normal {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.figtree-bold {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background: var(--yellow);
+  font-size: 1rem;
+  width: 1440px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--gray_950);
+  box-shadow: 8px 8px 5px var(--gray_950);
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+
+.course-image {
+}
+.course-detail {
+  width: 20rem;
+}
+.course-btn {
+  background: var(--yellow);
+  border-radius: 0.25rem;
+  color: var(--gray_950);
+  margin: 1rem 0;
+  padding: 0.25rem 1rem;
+  width: 5rem;
+  text-align: center;
+}
+.course-date {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.course-link {
+}
+.course-link__anchor {
+  color: var(--gray_950);
+  text-decoration: none;
+}
+.course-link h2:hover {
+  color: var(--yellow);
+}
+.course-info {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.presenter-details {
+  display: flex;
+  align-items: center;
+}
+.presenter-name {
+  font-weight: 800;
+  margin-left: 1rem;
+}
+.presenter-image {
+  width: 2.5rem;
+}
+
+.illustration-image {
+  border-radius: 0.8rem;
+}
